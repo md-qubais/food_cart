@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  border: 0px;
+  margin: 0px;
+}
+
+.header {
+  padding: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+nav {
+  color: white;
+  height: 80px;
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  position:fixed;
+  z-index: 1000;
+}
+
+img{
+    width: 100%;
+    transform: scale(1.1) rotate(-5deg) translateY(-250px)
+}
+
+
+
+main{
+    overflow: hidden;
+    padding-top: 80px;
+    height: 100%;
+    background-color: gray;
+}
